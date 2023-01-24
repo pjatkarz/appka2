@@ -4,8 +4,7 @@ from datetime import datetime
 startTime = datetime.now()
 # import znanych nam bibliotek
 
-filename = "model2.sv"
-model = pickle.load(open(filename,'rb'))
+model = pickle.load(open('model2.sv','rb'))
 # otwieramy wcześniej wytrenowany model
 
 Sex_d = {0:"Female", 1:"Male"}
